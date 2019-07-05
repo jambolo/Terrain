@@ -1,0 +1,88 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Roam", "Roam.vcproj", "{3F9D355C-86B8-4B8D-B773-776EE6C43B98}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8154DB06-11B8-4DBC-85BD-F891BBADEB1A} = {8154DB06-11B8-4DBC-85BD-F891BBADEB1A}
+		{E2052A30-7A45-438D-B4C9-9DB952EBD60C} = {E2052A30-7A45-438D-B4C9-9DB952EBD60C}
+		{EE965046-036A-4B43-8851-1BC19EDBE2CC} = {EE965046-036A-4B43-8851-1BC19EDBE2CC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hud", "..\Common\Hud\Hud.vcproj", "{8154DB06-11B8-4DBC-85BD-F891BBADEB1A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RoamTree", "RoamTree\RoamTree.vcproj", "{EE965046-036A-4B43-8851-1BC19EDBE2CC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryTree", "..\..\Libraries\BinaryTree\BinaryTree.vcproj", "{E2052A30-7A45-438D-B4C9-9DB952EBD60C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dxx", "..\..\Libraries\Dxx\Dxx.vcproj", "{9B7EAFF0-47B7-4EB2-9EAC-57E59546010A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 6
+		SccLocalPath0 = .
+		CanCheckoutShared = true
+		SolutionUniqueID = {6B7FD4B0-777C-4353-A2B4-8692DB6E2476}
+		SccProjectUniqueName1 = Roam.vcproj
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+		SccProjectUniqueName2 = ..\\Common\\Hud\\Hud.vcproj
+		SccLocalPath2 = ..\\Common\\Hud
+		CanCheckoutShared = true
+		SccProjectUniqueName3 = RoamTree\\RoamTree.vcproj
+		SccLocalPath3 = RoamTree
+		CanCheckoutShared = true
+		SccProjectUniqueName4 = ..\\..\\Libraries\\BinaryTree\\BinaryTree.vcproj
+		SccLocalPath4 = ..\\..\\Libraries\\BinaryTree
+		CanCheckoutShared = true
+		SccProjectUniqueName5 = ..\\..\\Libraries\\Dxx\\Dxx.vcproj
+		SccLocalPath5 = ..\\..\\Libraries\\Dxx
+		CanCheckoutShared = true
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Profile = Profile
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3F9D355C-86B8-4B8D-B773-776EE6C43B98}.Debug.ActiveCfg = Debug|Win32
+		{3F9D355C-86B8-4B8D-B773-776EE6C43B98}.Debug.Build.0 = Debug|Win32
+		{3F9D355C-86B8-4B8D-B773-776EE6C43B98}.Profile.ActiveCfg = Release|Win32
+		{3F9D355C-86B8-4B8D-B773-776EE6C43B98}.Profile.Build.0 = Release|Win32
+		{3F9D355C-86B8-4B8D-B773-776EE6C43B98}.Release.ActiveCfg = Release|Win32
+		{3F9D355C-86B8-4B8D-B773-776EE6C43B98}.Release.Build.0 = Release|Win32
+		{8154DB06-11B8-4DBC-85BD-F891BBADEB1A}.Debug.ActiveCfg = Debug|Win32
+		{8154DB06-11B8-4DBC-85BD-F891BBADEB1A}.Debug.Build.0 = Debug|Win32
+		{8154DB06-11B8-4DBC-85BD-F891BBADEB1A}.Profile.ActiveCfg = Release|Win32
+		{8154DB06-11B8-4DBC-85BD-F891BBADEB1A}.Profile.Build.0 = Release|Win32
+		{8154DB06-11B8-4DBC-85BD-F891BBADEB1A}.Release.ActiveCfg = Release|Win32
+		{8154DB06-11B8-4DBC-85BD-F891BBADEB1A}.Release.Build.0 = Release|Win32
+		{EE965046-036A-4B43-8851-1BC19EDBE2CC}.Debug.ActiveCfg = Debug|Win32
+		{EE965046-036A-4B43-8851-1BC19EDBE2CC}.Debug.Build.0 = Debug|Win32
+		{EE965046-036A-4B43-8851-1BC19EDBE2CC}.Profile.ActiveCfg = Release|Win32
+		{EE965046-036A-4B43-8851-1BC19EDBE2CC}.Profile.Build.0 = Release|Win32
+		{EE965046-036A-4B43-8851-1BC19EDBE2CC}.Release.ActiveCfg = Release|Win32
+		{EE965046-036A-4B43-8851-1BC19EDBE2CC}.Release.Build.0 = Release|Win32
+		{E2052A30-7A45-438D-B4C9-9DB952EBD60C}.Debug.ActiveCfg = Debug|Win32
+		{E2052A30-7A45-438D-B4C9-9DB952EBD60C}.Debug.Build.0 = Debug|Win32
+		{E2052A30-7A45-438D-B4C9-9DB952EBD60C}.Profile.ActiveCfg = Release|Win32
+		{E2052A30-7A45-438D-B4C9-9DB952EBD60C}.Profile.Build.0 = Release|Win32
+		{E2052A30-7A45-438D-B4C9-9DB952EBD60C}.Release.ActiveCfg = Release|Win32
+		{E2052A30-7A45-438D-B4C9-9DB952EBD60C}.Release.Build.0 = Release|Win32
+		{9B7EAFF0-47B7-4EB2-9EAC-57E59546010A}.Debug.ActiveCfg = Debug|Win32
+		{9B7EAFF0-47B7-4EB2-9EAC-57E59546010A}.Debug.Build.0 = Debug|Win32
+		{9B7EAFF0-47B7-4EB2-9EAC-57E59546010A}.Profile.ActiveCfg = Profile|Win32
+		{9B7EAFF0-47B7-4EB2-9EAC-57E59546010A}.Profile.Build.0 = Profile|Win32
+		{9B7EAFF0-47B7-4EB2-9EAC-57E59546010A}.Release.ActiveCfg = Release|Win32
+		{9B7EAFF0-47B7-4EB2-9EAC-57E59546010A}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
